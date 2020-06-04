@@ -27,7 +27,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 img {
@@ -73,6 +73,12 @@ img {
   border-bottom: none;
 }
 
+#google-mobile-logo {
+  width: 91px;
+  margin-left: 15px;
+  padding-bottom: 8px;
+}
+
 .mobile-list__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,12 +91,6 @@ img {
   line-height: 20px;
   width: 100%;
   vertical-align: middle;
-}
-
-.mobile-list__link #google-mobile-logo {
-  width: 91px;
-  margin-left: 15px;
-  padding-bottom: 8px;
 }
 
 .mobile-list__link .link-logo-mobile {
